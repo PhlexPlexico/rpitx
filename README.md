@@ -103,3 +103,5 @@ Inspired by
 * http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter
 * https://github.com/richardghirst/PiBits/pull/18
 * http://www.bellard.org/dvbt/
+* Please be wary of broadcasting on FM frequencies, due to the nature of the wire not having a bandpass, the signal is more of a square wave, which can interfere in different frequencies, and possibly within the illegal frequencies, such as anything over 108MHz. 
+* https://www.youtube.com/watch?v=CuxNGWcftc8

@@ -104,6 +104,9 @@ Inspired by
 * https://github.com/richardghirst/PiBits/pull/18
 * http://www.bellard.org/dvbt/
 
+# Web Server
+In order to start out the web server, you need Node.js. All it does is allow a simple server to allow uploading of files (.wav specifically) and will convert the songs using the other provided script. Once uploaded, in coming pushes, the play song script will take note of each added song and add it to the list of songs to be played.
+
 # Warning
 * Please be wary of broadcasting on FM frequencies, due to the nature of the wire not having a bandpass, the signal is more of a square wave, which can interfere in different frequencies, and possibly within the illegal frequencies, such as anything over 108MHz. 
 * https://www.youtube.com/watch?v=CuxNGWcftc8

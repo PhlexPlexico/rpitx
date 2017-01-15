@@ -32,7 +32,8 @@ handle() {
        echo "${LGREEN}New file found: ${CYAN}${file}${NC}"
     ;;
   esac
-  sudo ./rpitx -m RF -i "/home/pi/rpitx/converted/${2}" -f 101100
+  sudo ./rpitx -m RF -i "${converted}/${2}" -f 101100 &
+  wait %%
 }
 
 # Put everything together
